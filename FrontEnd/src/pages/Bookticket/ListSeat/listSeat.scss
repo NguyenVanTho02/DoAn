@@ -1,0 +1,179 @@
+.list-seat {
+  position: relative;
+  padding: 0 10%;
+  margin-left: 10%;
+
+  .info-countdown {
+    width: "100%";
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0;
+
+    .info-theater {
+      display: flex;
+
+      .text {
+        padding-top: 5px;
+        padding-left: 13px;
+
+        .text-time {
+          color: #9b9b9b;
+          font-size: 13px;
+        }
+      }
+    }
+
+    .count-down {
+      text-align: center;
+
+      .time-title {
+        font-size: 12px;
+        color: #9b9b9b;
+      }
+    }
+  }
+
+  .overflow-seat {
+    .invariant-width {
+      min-width: 600px;
+      padding: 0%;
+
+      .screen {
+        width: 100%;
+      }
+
+      .seat-select {
+        padding: 0 10%;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        .seat {
+          position: relative;
+
+          width: calc(100% / 10);
+          display: inline-block;
+          cursor: pointer;
+
+          .label {
+            position: absolute;
+            top: 50%;
+            left: -100%;
+            transform: translate(-50%, -50%);
+            font-weight: 500;
+            cursor: pointer;
+          }
+
+          .seat-name {
+            position: absolute;
+            color: #fff;
+            font-size: 14px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+          }
+
+          .seat-locked {
+            position: absolute;
+            top: 42%;
+            left: 50%;
+            width: 41%;
+            transform: translate(-50%, -50%);
+          }
+
+          .seat-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            margin: 10px auto;
+          }
+
+          .view-center {
+            position: absolute;
+            top: 68%;
+            left: 47.5%;
+            width: 700%;
+            height: 350%;
+            transform: translate(-42.5%, -42%);
+            z-index: 10;
+          }
+
+          .area-click {
+            width: 100%;
+            height: 100%;
+            color: red;
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .note-seat {
+    padding: 2% 10% 0;
+    font-size: 13;
+    color: #9b9b9b;
+
+    .type-seats {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+      gap: 2px;
+
+      .box-note {
+        display: flex;
+        align-items: center;
+        height: 30px;
+
+        .item-note {
+          width: 15px;
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .position-view {
+      text-align: center;
+      margin-top: 15px;
+      padding-bottom: 20px;
+
+      .line {
+        margin-left: 19px;
+
+        .line-beautiful {
+          display: inline-block;
+          border-bottom: 2px solid #fa7f6c;
+          width: 28px;
+          vertical-align: super;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+
+  .modal-left {
+    display: block;
+    left: 0;
+    top: 100px;
+    height: calc(100% - 100px);
+    width: 7.5%;
+    position: fixed;
+    background-image: url("https://movie0706.cybersoft.edu.vn/hinhanh/nha-ba-nu_gp09.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .opacity-img {
+      height: 100%;
+      width: 100%;
+      background: #000;
+      opacity: 0.7;
+    }
+  }
+}

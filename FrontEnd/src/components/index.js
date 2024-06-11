@@ -1,0 +1,8 @@
+export { default as CustomSlier} from "./CustomSlider/CustomSlider"
+export { default as InfoMovie } from "./InfoMovie/InfoMovie"
+export { default as TabsBooking } from "./TabsBooking/TabsBooking"
+export { default as ItemComment } from "./ItemComment/ItemComment"
+export { default as NameOfTheater } from "./NameOfTheater/NameOfTheater"
+export { default as ItemMovieByCinema } from "./ItemMovieByCinema/ItemMovieByCinema"
+export { default as ListMovieCommingSoon } from "./Movie/ListMovieCommingSoon.jsx"
+export { default as ListMovieShowNow } from "./Movie/ListMovieShowNow.jsx"

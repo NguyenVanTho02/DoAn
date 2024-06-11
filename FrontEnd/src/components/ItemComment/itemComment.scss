@@ -1,0 +1,61 @@
+.item-comment {
+  display: flex;
+  width: 100%;
+  padding: 30px 0 30px 30px;
+  border-bottom: 1px solid #e5e5e5;
+
+  .item-box {
+    flex: 1;
+    align-items: center;
+
+    .item-box-top {
+      display: flex;
+      align-items: center;
+
+      strong {
+        width: 56px;
+        height: 20px;
+        margin-right: 6px;
+        line-height: 20px;
+        background: #33373a;
+        font-weight: bold;
+        color: #fff;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 12px;
+      }
+
+      .item-star {
+        color: black;
+        margin: 0 -2px;
+        font-size: 22px;
+      }
+
+      span {
+        padding-left: 5px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+
+    .content-cmt {
+      margin: 10px 0 15px;
+      color: #231f20;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .date-up {
+      font-size: 12px;
+      color: #333;
+    }
+  }
+
+  .name-acc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border-left: 1px #ccc solid;
+  }
+}

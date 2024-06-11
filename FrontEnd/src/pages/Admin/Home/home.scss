@@ -1,0 +1,28 @@
+.item-statistical {
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.box-chart {
+  position: relative;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  .option-month {
+    position: absolute;
+    right: 34px;
+    top: 50px;
+    color: #949494;
+    font-size: 12px;
+    border: #b8b8b8 solid 1px;
+  }
+}
+
+.box-ticket {
+  position: relative;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

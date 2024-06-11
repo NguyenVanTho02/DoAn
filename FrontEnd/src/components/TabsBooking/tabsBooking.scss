@@ -1,0 +1,16 @@
+.list-date-show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .date-show {
+    padding: 0 28px;
+    font-size: large;
+    font-weight: 400;
+    width: calc((12/7)*100);
+    cursor: pointer;
+
+    .day-show {
+      font-size: 40px;
+    }
+  }
+}

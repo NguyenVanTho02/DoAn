@@ -1,0 +1,44 @@
+/* Định dạng chung cho bảng */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Tạo hiệu ứng sọc cho hàng của bảng */
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+  }
+  
+  /* Khi di chuột qua các hàng của bảng */
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Thêm đường viền cho bảng và các ô của nó */
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  /* Định dạng phần tiêu đề của bảng */
+  .thead {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  /* Định dạng các ô tiêu đề trong bảng */
+  .th {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Định dạng phần thân của bảng */
+  .tbody {
+    color: #000000;
+  }
+  
+  /* Định dạng các ô trong phần thân của bảng */
+  .td {
+    padding: 8px;
+    text-align: left;
+    border-top: 1px solid #5ea2e6;
+  }

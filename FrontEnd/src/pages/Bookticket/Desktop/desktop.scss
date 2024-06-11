@@ -1,0 +1,11 @@
+.book-ticked {
+  display: flex;
+
+  .book-left {
+    flex: 75%;
+  }
+
+  .book-right {
+    flex: 25%;
+  }
+}
